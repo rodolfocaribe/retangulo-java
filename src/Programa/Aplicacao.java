@@ -17,7 +17,13 @@ public class Aplicacao {
 				System.out.print("O Valor deve ser positivo. Tente novamente: ");
 				largura = sc.nextDouble();
 			}
-	
+			
+		System.out.print("DIGITE A ALTURA DO RETANGULO: ");
+		altura  = sc.nextDouble();
+			while (altura <= 0) {
+				System.out.print("O valor deve ser positivo. Tente novamente: ");
+				altura = sc.nextDouble();
+				}
 		sc.close();
 
 		
